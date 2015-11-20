@@ -75,6 +75,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.ril.config=simactivation,sim2gsmonly \
     persist.radio.multisim.config=dsds
 
+# rmt_storage
+PRODUCT_PACKAGES += \
+    libshim_rmt_storage
+
 # Wifi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
