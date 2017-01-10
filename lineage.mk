@@ -23,7 +23,7 @@ $(call inherit-product, device/oppo/r7/device.mk)
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-PRODUCT_NAME := cm_r7
+PRODUCT_NAME := lineage_r7
 PRODUCT_DEVICE := r7
 PRODUCT_BRAND := OPPO
 PRODUCT_MODEL := R7f
