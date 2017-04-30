@@ -71,6 +71,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.data.target=dpm1 \
     rild.libpath=/vendor/lib/libril-qc-qmi-1.so \
+    ro.rf_version=W_G_L_15061 \
     ro.telephony.default_network=9,9 \
     ro.telephony.ril.config=simactivation,sim2gsmonly \
     persist.radio.multisim.config=dsds
