@@ -47,5 +47,8 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 13218315264 # 13218331648 - 16384
 LZMA_RAMDISK_TARGETS := recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
+# Shipping API
+PRODUCT_SHIPPING_API_LEVEL := 19
+
 # Inherit from proprietary files
 include vendor/oppo/r7/BoardConfigVendor.mk
