@@ -27,6 +27,11 @@
 
 import /vendor/etc/init/hw/init.qcom-common.rc
 
+on early-boot
+    # Subsystem Restart
+    # Modem
+    write /sys/bus/msm_subsys/devices/subsys2/recovery_policy "skip_restart"
+
 on boot
     # Adaptive LMK
     write /sys/module/lowmemorykiller/parameters/enable_adaptive_lmk 1
